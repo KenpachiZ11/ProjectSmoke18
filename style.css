@@ -4,7 +4,7 @@
 }
 
 body {
-    background: teal;
+    background:rgb(20, 20, 20);
 }
 
 section {
@@ -19,6 +19,7 @@ section {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    /* background: rgba(184, 180, 180, 0.550); */
 }
 
 nav {
@@ -37,7 +38,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    color: black;
+    /* color: black; */
     width: 1280px;
     height: 50px;
     align-items: center;
@@ -70,20 +71,35 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     align-content: flex-end;
-    color:white;
+    color:orange;
     font-size: 40px;
 }
 
 .select1 .text {
     margin: 0 auto;
     /* background:rgb(180, 47, 47); */
-    height: 200px;
-    width: 600px;
+    height: 100px;
+    width: 560px;
     font-size: 25px;
     color:white;
+    background: rgba(80, 80, 80, 0.8);
+    border-radius: 35px;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+
+.text .text_p {
+    height: 100px;
+    width: 540px;
+    color:orange;
+    display: flex;
+    align-items: center;
 }
 
 .select1 .pure {
+    margin: 80px;
     height: 150px;
 }
 
@@ -126,6 +142,14 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+/* .rgba {
+    margin: 0 auto;
+    min-height: 700px;
+    width: 1400px;
+    background: rgba(184, 180, 180, 0.550);
+    position: absolute;
+} */
 
 /* Select2 */
 
@@ -203,7 +227,8 @@ nav {
 /* Section 3 */
 
 .select3 {
-    /* min-height: 800px; */
+    border: 1px solid red;
+    min-height: 800px;
     background: rgb(20, 20, 20);
 }
 
@@ -228,6 +253,7 @@ nav {
 .card {
     width: calc(1350px / 3);
     height: 350px;
+    display: flex;
 }
 
 .cards {
@@ -236,53 +262,149 @@ nav {
     margin: 10px;
 }
 
-.card-pic {
+.text_jcsb {
     margin: 0 auto;
-    min-height: 300px;
-    width: 1330px;
-    /* background: white; */
+    width: 1350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 230px;
 }
 
-.card1 { 
-    border-radius: 45px;
-    width: 10px;
-    height: 10px;
+.write {
+    color:white;
+    font-size: 30px;
+    height: 300px;
+    width: calc(1350px / 3 - 20px);
+    margin-left: 10px;
+}
+
+.write {
+    color:white;
+    font-size: 30px;
+    height: 300px;
+    width: calc(1350px / 3 - 20px);
+    margin-left: 10px;
+}
+
+.write {
+    color:white;
+    font-size: 30px;
+    height: 300px;
+    width: calc(1350px / 3 - 20px);
+    margin-left: 10px;
+}
+
+.txt {
     background:red;
-    display: flex;
 }
 
-.card2 {
-    height: 20px;
-    align-items: center;
+
+/* Select 4 */
+
+.select4 {
+    min-height: 600px;
+    width: 1400px;
+}
+
+.sector h1 {
+    padding: 50px;
+    height: 100px;
+    color: orange;
     display: flex;
     justify-content: center;
-    color:orange;
+    align-items: center;
 }
 
-.card3 {
-    height: 20px;
-    width: 20px;
+.sector1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 105px;
+}
+
+.card_icon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+
+.img_icon1{
+    width: 45px;
+    height: 31px;
+}
+
+.img_icon2{
+    width: 45px;
+    height: 45px;
+}
+
+.img_icon3{
+    width: 45px;
+    height: 23px;
+}
+
+.img_icon4{
+    width: 45px;
+    height: 40px;
+}
+
+.img_icon5{
+    width: 45px;
+    height: 48px;
+}
+
+.sector2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 40px;
+}
+
+
+.sector3 {
+    display: flex;
+    justify-content: center;
+}
+
+.txt_icon {
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+.sector4 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px;
+}
+
+.sector5 {
+    display: flex;
+    justify-content: center;  
+}
+
+.txt_icons {
+    padding: 15px;
+    color:white;
+    display: flex;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    margin: 0 auto;
+    width: 1400px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.card4 {
-    height: 20px;
-    width: 250px;
-    display: flex;
-    margin-top: 10px;
-    /* background:black; */
-}
-
-
-
-
-
-
-
-
-
 
 
 
