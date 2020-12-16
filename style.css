@@ -15,11 +15,19 @@ section {
 }
 
 .select1 {
-    background-image: url(body.jpg);
+    background-image: url(img/body.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    display: flex;
     /* background: rgba(184, 180, 180, 0.550); */
+}
+
+.block21 {
+    /* display: flex; */
+    height: 700px;
+    width: 1400px;
+    background: rgba(80, 80, 80, .75);
 }
 
 nav {
@@ -63,44 +71,26 @@ nav {
     text-decoration: none;
 }
 
-.select1 .p {
-    /* background:rgb(48, 168, 78); */
-    height: 200px;
-    width: 700px;
-    display: flex;;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: flex-end;
+.p {
     color:orange;
-    font-size: 40px;
+    font-size: 70px;
+    padding-top: 200px;
+    margin-left: 180px;
 }
 
-.select1 .text {
-    margin: 0 auto;
-    /* background:rgb(180, 47, 47); */
-    height: 100px;
+.text {
     width: 560px;
-    font-size: 25px;
-    color:white;
-    background: rgba(80, 80, 80, 0.8);
-    border-radius: 35px;
-    border: 1px solid orange;
-    display: flex;
-    justify-content: center;
-    opacity: 1;
-}
-
-.text .text_p {
-    height: 100px;
-    width: 540px;
     color:orange;
-    display: flex;
-    align-items: center;
+    margin-left: 460px;
+    margin-top: 20px;
+    margin-bottom: 170px;
 }
 
-.select1 .pure {
-    margin: 80px;
-    height: 150px;
+
+.text_p {
+    font-size: 30px;
+    width: 560px;
+    color:orange;
 }
 
 .select1 .other {
@@ -111,7 +101,7 @@ nav {
     width: 600px;
     height: 64px; 
     /* background:white; */
-    margin-left: 500px;
+    margin-left: 400px;
 }
 
 .logo1 {
@@ -131,7 +121,7 @@ nav {
     display: block;
 }
 
-.select1 .year {
+.year {
     margin-left: 140px;
     border: 2px solid white;
     color:white;
@@ -150,6 +140,8 @@ nav {
     background: rgba(184, 180, 180, 0.550);
     position: absolute;
 } */
+
+
 
 /* Select2 */
 

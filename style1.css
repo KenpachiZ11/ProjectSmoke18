@@ -40,6 +40,427 @@ nav {
     color: orange;
 }
 
+.select1 {
+    background-image: url(img/body.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    /* background: rgba(184, 180, 180, 0.550); */
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1400px;
+    background: rgba(80, 80, 80, .6);
+}
+
+.header {
+    color: orange;
+    font-size: 90px;
+}
+
+/* Select 2 */
+
+.text {
+    padding-top: 115px;
+    margin: 0 auto;
+    width: 1200px;
+    color:white;
+    font-size: 20px;
+}
+
+.text p {
+    margin-top: 20px;
+}
+
+/* Select 3 */
+
+.select3 {
+    /* border: 1px solid red; */
+    background-image: url(img/body2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.block3 {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 550px;
+    height: 700px;
+    /* background:tomato; */
+    font-size: 60px;
+    color:white;
+}
+
+.mt {
+    margin-top: 200px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    background: red;
+    margin-left: 90px;
+}
+
+.right {
+    height: 700px;
+    width: 800px;
+    /* background:white; */
+}
+
+.right1 {
+    margin: 0 auto;
+    width: 700px;
+    height: 70px;
+    /* background:black; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background:red;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.textR {
+    height: 70px;
+    width: 730px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+/* Select 4 */
+
+.select4 {
+    height: 1050px;
+}
+
+.text2 {
+    padding: 30px;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.format {
+    /* background:white; */
+    min-height: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formatL {
+    width: 430px;
+    min-height: 800px;
+    background:rgb(20, 20, 20);
+}
+
+.formatC {
+    width: 430px;
+    min-height: 800px;
+    background:rgb(20, 20, 20);
+}
+
+.formatR {
+    width: 430px;
+    min-height: 800px;
+    background:rgb(20, 20, 20);
+}
+
+.text_format {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    width: 430px;
+    height: 50px;
+    background: red;
+    color: white;
+}
+
+.formatInfo {
+    background:red;
+    color:white;
+    width: 430px;
+    height: 50px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formatM {
+    margin-top: 19px;
+    border-bottom: 1px solid red;
+    width: 430px;
+    height: 100px;
+    /* background:violet; */
+}
+
+.formatM_text {
+    font-size: 30px;
+    color: white;
+    border-bottom: 2px solid red;
+    width: 165px;
+    margin-left: 30px;
+}
+
+.formatMinfo {
+    color:white;
+    font-size: 30px;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+}
+
+.formatMinfo_text1 {
+    margin-left: 30px;
+    color:gray;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.formatMinfo_text2 {
+    margin-left: 30px;
+    color:white;
+    font-size: 30px;
+    width: 430px;
+}
+
+/* Select 5 */
+.select5 {
+    /* border: 1px solid red; */
+    background-image: url(img/body4.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.block_reg {
+    margin: 0 auto;
+    width: 1300px;
+    height: 600px;
+    /* background:orchid; */
+    display: flex;
+}
+
+.moscow {
+    width: 650px;
+    height: 600px;
+    /* background:peru; */
+}
+
+.regions {
+    width: 650px;
+    height: 600px;
+    /* background: oldlace; */
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 100px;
+    font-size: 35px;
+    color:white;
+    font-weight: 600;
+    /* background:olive; */
+}
+
+.moscowInfo {
+    width: 650px;
+    height: 500px;
+    /* background:orangered; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 200px 200px;
+}
+
+.blockA {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 325px;
+    color: grey;
+    font-size: 25px;
+
+}
+
+.blockB {
+    display: flex;
+    justify-content: center;
+    width: 325px;
+    color:white;
+    font-size: 30px;
+}
+
+.grey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1400px;
+    background: rgba(80, 80, 80, .8);
+}
+
+/* Select 6 */
+
+.select6 {
+    min-height: 1300px;
+}
+
+.sectorA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 1400px;
+    color:white;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.red_text {
+    background: red;
+    margin-right: 10px;
+}
+
+.sectorB {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 160px 80px 200px;
+    color:white;
+}
+
+.point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inf1 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: red;
+    font-size: 70px;
+    color:white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.grid_text_plan {
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpO {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1100px;
+    color: white;
+    font-size: 25px;
+}
+
+.corpO p {
+    margin-top: 15px;
+}
+
+.corpOtext {
+    width: 800px;
+    color: gray;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 630px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 
