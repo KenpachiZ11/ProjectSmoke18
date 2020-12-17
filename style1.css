@@ -48,18 +48,62 @@ nav {
     /* background: rgba(184, 180, 180, 0.550); */
 }
 
-.block {
+.smoke {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
     width: 1400px;
-    background: rgba(80, 80, 80, .6);
+    min-height: 700px;
+    background: rgba(80, 80, 80, .8);
 }
 
 .header {
+    display: flex;
     color: orange;
     font-size: 90px;
+    position:relative;
+    top: 150px;
+    left: 150px;
+    height: 120px;
+}
+
+.textHeader {
+    position: relative;
+    font-size: 30px;
+    height: 120px;
+    top: 250px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:orange;
+}
+
+.btnClick {
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    top: 500px;
+    right: 940px;
+}
+
+.btnClick:hover {
+    background: rgba(255, 166, 0, 0.8);
+}
+
+.btnIconsSvg {
+    height: 50px;
+    display: flex;
+}
+
+.btnA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    width: inherit;
 }
 
 /* Select 2 */
@@ -380,7 +424,7 @@ nav {
 .grid_text {
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: center;  
     font-size: 30px;
     font-weight: 600;
 }
@@ -388,8 +432,8 @@ nav {
 .grid_text_plan {
     font-size: 25px;
     text-align: center;
-    display: flex;
-    align-items: center;
+    display: flex;   
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -413,27 +457,54 @@ nav {
     margin-left: 630px;
 }
 
+/* Section 7 */
 
+.select7 {
+    min-height: 1150px;
+    background:rgb(20, 20, 20);
+    border: 1px solid red;
+}
 
+.select7txt {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
 
+.blockRed {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 160px);
+}
 
+.blockInfoRed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.cubixR {
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
 
+.soft {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.blockInfoTxt {
+    font-size: 20px;
+    color: grey;
+}
 
 
 
@@ -474,3 +545,38 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
