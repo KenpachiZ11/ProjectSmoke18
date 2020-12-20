@@ -14,6 +14,13 @@ section {
     background:black;
 }
 
+
+.sector1 {
+    min-height: 900px;
+    /* background:teal; */
+}
+
+
 nav {
     background: rgba(110, 110, 110, 0.2);
     height: 50px;
@@ -34,6 +41,88 @@ nav {
     text-decoration: none;
     color: white;
     display: block;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+.headS1 {
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.sector1Grid {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 325px);
+    /* border: 1px solid red; */
+    color: white;
+    gap: 30px;
+}
+
+.GridImg {
+    width: 325px;
+    height: 325px;
+}
+
+.redH {
+    background: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sector1GridTxt {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/* Sector 2 */
+
+
+.sector2H {
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.sector2Grid {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 400px);
+    gap: 50px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.hookah {
+    height: 400px;
+}
+
+
+
+.leftHookah {
+    float: right;
 }
 
 
