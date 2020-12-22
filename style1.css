@@ -56,19 +56,22 @@ nav {
 }
 
 .header {
+    font-family: "Segoe Script", cursive;
     display: flex;
     color: orange;
-    font-size: 90px;
+    font-size: 70px;
     position:relative;
     top: 150px;
     left: 150px;
-    height: 120px;
+    height: 160px;
 }
 
 .textHeader {
+    font-family: "Segoe Script", cursive;
     position: relative;
-    font-size: 30px;
-    height: 120px;
+    font-size: 25px;
+    height: 150px;
+    width: 600px;
     top: 250px;
     right: 50px;
     display: flex;
@@ -200,8 +203,9 @@ nav {
 }
 
 .text2 {
+    font-family: "Segoe Script", cursive;
     padding: 30px;
-    color: white;
+    color: orange;
     height: 60px;
     display: flex;
     align-items: center;

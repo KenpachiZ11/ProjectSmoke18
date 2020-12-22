@@ -48,10 +48,11 @@ nav {
 }
 
 .headS1 {
+    font-family: "Segoe Script", cursive;
     position: relative;
     top: 50px;
     font-size: 30px;
-    color: white;
+    color: orange;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,10 +93,11 @@ nav {
 
 
 .sector2H {
+    font-family: "Segoe Script", cursive;
     position: relative;
     top: 50px;
     font-size: 30px;
-    color: white;
+    color: orange;
     display: flex;
     align-items: center;
     justify-content: center;

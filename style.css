@@ -152,9 +152,14 @@ nav {
 
 
 .text_p {
+    font-family: "Segoe Script", cursive;
     font-size: 30px;
-    width: 560px;
+    width: 800px;
     color:orange;
+}
+
+.HAWE {
+    font-family: "Segoe Script", cursive;
 }
 
 .select1 .other {
