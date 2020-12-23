@@ -30,7 +30,12 @@ section {
     display: none;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.video {
+    width: 100%;
+    height: 100%;
 }
 
 .popup {
@@ -108,7 +113,7 @@ nav {
 
 .select1 .menu {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     list-style-type: none;
     /* color: black; */
     width: 1280px;
@@ -140,6 +145,7 @@ nav {
     font-size: 70px;
     padding-top: 200px;
     margin-left: 180px;
+    user-select: none;
 }
 
 .text {
@@ -148,6 +154,7 @@ nav {
     margin-left: 460px;
     margin-top: 20px;
     margin-bottom: 170px;
+    user-select: none;
 }
 
 
@@ -158,7 +165,7 @@ nav {
     color:orange;
 }
 
-.HAWE {
+.have {
     font-family: "Segoe Script", cursive;
 }
 
@@ -239,7 +246,7 @@ nav {
     width: calc(1200 / 3 - 20px);
     height: 480px;
     margin: 10px;
-    background: rgba(184, 180, 180, 0.404);
+    background: rgba(184, 180, 180, 0.6);
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     /* border-radius: 35px; */
@@ -454,6 +461,27 @@ nav {
     text-align: center;
 }
 
+
+#warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: grey;
+    background: url(img/warning.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#warning h1 {
+    user-select: none;
+}
+
 /* Footer */
 
 footer {
@@ -466,20 +494,4 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
