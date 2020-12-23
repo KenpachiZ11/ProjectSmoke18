@@ -24,6 +24,7 @@ section {
 nav {
     background: rgba(110, 110, 110, 0.2);
     height: 50px;
+    position: fixed;
     width: 1400px;
 }
 
@@ -56,7 +57,6 @@ nav {
     align-items: center;
     justify-content: center;
     height: 100px;
-    user-select: none;
 }
 
 .sector1Grid {
@@ -114,6 +114,7 @@ nav {
     gap: 50px;
     color: white;
     font-size: 20px;
+    padding-bottom: 50px;
 }
 
 .hookah {
@@ -124,55 +125,6 @@ nav {
 
 .leftHookah {
     float: right;
-}
-
-/* Sector 3 */
-
-.headerSector3 {
-    color:orange;
-    display: flex;
-    justify-content: center;
-    height: 150px;
-    align-items: center;
-    font-size: 30px;
-    font-family: "Segoe Script", cursive;
-}
-
-.gridSector3 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 280px);
-    padding-bottom: 50px;
-}
-
-.itemsSector {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gridImgS3 {
-    width: 198px;
-    height: 278px;
-}
-
-
-.gridImgS3_8 {
-    width: 260px;
-    height: 278px;
-}
-
-.textSector3Info {
-    color:white;
-    font-size: 22px;
-    width: 700px;
-    margin: 0 auto;
-    text-align: center;
-    height: 100px;
-}
-
-.prem {
-    background: red;
 }
 
 
