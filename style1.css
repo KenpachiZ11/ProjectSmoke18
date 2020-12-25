@@ -245,6 +245,7 @@ nav {
     height: 50px;
     background: red;
     color: white;
+    font-family: "Segoe Script", cursive;
 }
 
 .formatInfo {
@@ -506,6 +507,22 @@ nav {
     color: grey;
 }
 
+
+.upBtn {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background: orange;
+    
+}
+
+.up {
+    width: 50px;
+    height: 50px;
+
+}
 /* Footer */
 
 footer {
