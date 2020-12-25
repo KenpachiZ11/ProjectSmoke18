@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registerFormSection">
+        <div class="white">
+            <h1>Бронирование столика</h1>
+
+            <div class="formRegister">
+                <div class="formOrder">
+                    <form action="#" method="get">
+
+                        <div class="infoForm">
+                            <div class="sectorInfo">
+                                Ваше имя:
+                            </div>
+                            <input type="text" name="user_name" class="selectNameForm">
+                        </div>
+
+                        <div class="infoForm">
+                            <div class="sectorInfo">
+                                Ваш телефон:
+                            </div>
+                            <input type="tel" name="user_tel" class="selectNameForm" placeholder="+7">
+                        </div>
+
+                        <div class="infoForm">
+                            <div class="sectorInfo">
+                                Дата бронирования:
+                            </div>
+                            <input type="date" name="user_date" class="selectNameForm">
+                        </div>
+
+                        <div class="infoForm">
+                            <div class="sectorInfo">
+                                Время бронирования:
+                            </div>
+                            <input type="time" name="user_time" class="selectNameForm">
+                        </div>
+
+                        <div class="infoForm">
+                            <div class="sectorInfo">
+                                Количество гостей:
+                            </div>
+                            <input type="number" name="count" min="1" step="1" max="15" class="selectNameForm" placeholder="Не больше 15">
+                        </div>
+                        
+                        <div class="cdek">
+
+                            <div class="btnR">
+                                <input type="reset" value="Очистить" class="formBtn">
+                            </div>
+
+                            <div class="btnS">
+                                <input type="submit" value="Отправить" class="formBtn">
+                            </div>
+        
+                        </div>
+
+                    </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

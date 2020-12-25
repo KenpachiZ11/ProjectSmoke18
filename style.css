@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 body {
@@ -24,7 +25,7 @@ section {
 }
 
 #overlay {
-    position: fixed;
+    position: fixed; 
     top: 0;
     left: 0;
     display: none;
@@ -185,6 +186,7 @@ nav {
     height: 64px;
     margin-right: 50px;
     margin-left: 10px;
+    user-select: none;
 }
 
 .box_menu {
@@ -207,23 +209,45 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
-
-/* .rgba {
-    margin: 0 auto;
-    min-height: 700px;
-    width: 1400px;
-    background: rgba(184, 180, 180, 0.550);
-    position: absolute;
-} */
-
-
 
 /* Select2 */
 
 .select2 {
-    min-height: 1280px;
+    min-height: 1500px;
 }
+
+.clickPlace {
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius:50px;
+    cursor: pointer;
+    outline: none;
+    transition: 1.2s ease-out;
+    background: white;
+    font-family: "Segoe Script", cursive;
+}
+
+.clickPlace:hover {
+     transform: scale(1.2);
+     background:red;
+     color: white;
+     font-family: "Segoe Script", cursive;
+}
+
+/* #placeClicker {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
 
 .select2 h1 {
     padding-top: 60px;
@@ -476,10 +500,12 @@ nav {
     font-size: 40px;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #warning h1 {
     user-select: none;
+    background:red;
 }
 
 /* Footer */
@@ -495,3 +521,86 @@ footer {
     align-items: center;
 }
 
+
+
+/* Register Form */
+
+.registerFormSection {
+    background: black;
+    padding: 40px;
+}
+
+.white {
+    margin: 0 auto;
+    background: white;
+    background: url(img/paper.jpg);
+    height: 550px;
+    width: 550px;
+}
+
+.white h1 {
+    padding: 40px;
+    font-weight: 700;
+    font-family: "Segoe Script", cursive;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.infoForm {
+    display: flex;
+    /* background:red; */
+    margin-bottom: 10px;
+}
+
+.sectorInfo{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Segoe Script", cursive;
+}
+
+.selectNameForm {
+    width: 200px;
+    font-size: 18px;
+    font-family: "Segoe Script", cursive;
+}
+
+.cdek {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.formBtn{
+    width: 150px;
+    height: 50px;
+    font-family: "Segoe Script", cursive;
+    font-size: 18px;
+}
+
+
+.btnUp {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    background: orange;
+    top: 90%;
+    left: 90%;
+    border-radius: 50%;
+}
+
+#btnUp {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background: url(icons/arrow-up-solid.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
