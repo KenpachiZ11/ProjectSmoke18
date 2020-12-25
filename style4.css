@@ -84,7 +84,7 @@ nav {
     border-radius: 50px;
     height: 50px;
     width: 700px;
-    background:rgb(148, 148, 148);
+    background:rgb(0, 0, 50);
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -94,7 +94,7 @@ nav {
 .borderBlock {  
     height: 25px;
     width: 25px;
-    background:grey;
+    background: white;
     border-radius: 50%;
     cursor: pointer;
 }

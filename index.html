@@ -14,7 +14,7 @@
             <nav>
                 <img src="icons/logo.png" alt="" class="logo">
                 <!-- ul>li*3>a{link$} -->
-                <ul class="menu" id="menu12">
+                <ul class="menu">
                     <li><a href="#sector">Меню</a></li>
                     <li><a href="franch.html">Франчайзинг</a></li>
                     <li><a href="other.html">Акции</a></li>
@@ -58,11 +58,12 @@
             <div class="popup">
                 <h2>Вам есть 18?</h2>
                 
-                <button class="close" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';">Yes!</button>
+                <button class="close" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';let upBtn = document.getElementsByClassName('upBtn')[0]; upBtn = style.display='flex' ">Yes!</button>
                 <button class="close1" title="Закрыть" onclick="document.getElementById('warning').style.display='flex';">No!</button>
             </div>
         </div>
 
+        <div class="upBtn"><a href="#"><img src="icons/arrow-up-solid.svg" alt="Up" class="up"></a></div>
 
     </section>
 
@@ -267,7 +268,7 @@
     </section>
     
     <footer>
-        &copy; Bykovskiy Daniil 2020 Andreyisk2020
+        &copy; Bykovskiy Daniil | Andreyisk2020 | Breathlessss
     </footer>
     <div id="warning">
         <h1>Покиньте Сайт!</h1>
@@ -276,8 +277,7 @@
     <!-- <div class="btnUp">
         <div id="btnUp"><a href="#menu12"></a></div>
     </div> -->
-
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
 
