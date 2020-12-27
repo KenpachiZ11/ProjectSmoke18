@@ -37,7 +37,7 @@ section {
 .video {
     min-width: 100%;
     min-height: 100%;
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
 }
@@ -110,6 +110,10 @@ nav {
     position: fixed;
 }
 
+nav:hover { 
+    background: linear-gradient(45deg, #ff0000, #000000);
+}
+
 .logo {
     height: 60px;
     width: 120px;
@@ -128,8 +132,9 @@ nav {
 .select1 .menu li {
     margin-left: 35px;
     font-size: 20px;
-    width: 160px;
+    /* width: 160px; */
     margin-right: 50px;
+    font-family: "Segoe Script", cursive;
 }
 
 .select1 .menu a {
@@ -216,11 +221,11 @@ nav {
 }
 
 /* Select2 */
-
+/* 
 .select2 {
     min-height: 1500px;
-}
-
+} */
+/* 
 .clickPlace {
     margin: 0 auto;
     margin-top: 140px;
@@ -236,39 +241,38 @@ nav {
     transition: 1.2s ease-out;
     background: white;
     font-family: "Segoe Script", cursive;
-}
-
+} */
+/* 
 .clickPlace:hover {
      transform: scale(1.2);
      background:red;
      color: white;
      font-family: "Segoe Script", cursive;
-}
-
-/* #placeClicker {
+} */
+/* 
+#placeClicker {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 } */
-
+/* 
 .select2 h1 {
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
     color:orange;
-}
-
+} */
+/* 
 .cards-container {
     margin: 0 auto;
     width: 1200px;
-    /* background:white; */
     min-height: 800px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 500px;
-}
-
+} */
+/* 
 .cafe {
     width: calc(1200 / 3 - 20px);
     height: 480px;
@@ -276,24 +280,23 @@ nav {
     background: rgba(184, 180, 180, 0.6);
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    /* border-radius: 35px; */
-}
-
+} */
+/* 
 .img_cafe {
     width: calc(1200px / 3 - 20px);
     height: 400px;
-}
-
+} */
+/* 
 .info {
     display: flex;
-}
-
+} */
+/* 
 .icons {
     width: 40px;
     height: 36px;
     margin-left: 10px;
-}
-
+} */
+/* 
 .text_info {
     height: 36px;
     width: calc(1200px / 3 - 70px);
@@ -301,8 +304,8 @@ nav {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-}
-
+} */
+/* 
 .info1 {
     display: flex;
 }
@@ -316,8 +319,72 @@ nav {
     display: flex;
     justify-content: center;
     font-size: 20px;
+} */
+
+
+/* Select2_version2.0 */
+
+.select2_header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    color: orange;
+    font-family: "Segoe Script", cursive;
+    font-size: 30px;
 }
 
+.select_2_grid {
+    width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 650px);
+    gap: 50px;
+    padding-bottom: 150px;
+}
+
+.select2_items {
+    background: grey;
+    border-radius: 50px;
+}
+
+.items2_img {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 400px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.items2_grid {
+    width: 380px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50px 330px;
+    grid-template-rows: 50px 50px;
+    row-gap: 10px;
+}
+
+.items_img_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Segoe Script", cursive;
+}
+
+.items_img_text a {
+    text-decoration: none;
+    color:black;
+}
+
+#items_img {
+    width: 50px;
+    height: 50px;
+}
 
 /* Section 3 */
 
@@ -401,13 +468,15 @@ nav {
     width: 1400px;
 }
 
-.sector h1 {
+.sectorS4 {
     padding: 50px;
     height: 100px;
     color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    
 }
 
 .sector1 {
