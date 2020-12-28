@@ -2,7 +2,7 @@ let delay_popup = 1000;	setTimeout("document.getElementById('overlay').style.dis
 let upBtn = document.getElementsByClassName("upBtn");
 
 
-function placeClick() {
-    register=window.open("register.html", "display_ford",
-      "min-width=300, min-height=500,status=no,toolbar=,menubar=no");
-}
+// function placeClick() {
+//     register=window.open("orderOnline.html", "display_ford",
+//       "width=1920, height=1080, status=no,toolbar=,menubar=no");
+// }

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    width: 1300px;
+    background: #222;
+    margin: 0 auto;
+    min-height: 1500px;
+}
+
+.body_body {
+    background:black;
+    width: 1300px;
+    min-height: 1500px;
+}
+
+
+.video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.header {
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: orange;
+    font-family: "Segoe Script", cursive;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 600px);
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    gap: 50px;
+}
+
+.card {
+    background: grey;
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    filter: grayscale(100%);
+    transition: 1s ease-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.card:hover img {
+    opacity: 1;
+}
+
+.card:nth-of-type(even) {
+    box-shadow: 0 5px 15px 0 crimson;
+}
+
+.card:nth-of-type(odd) {
+    box-shadow: 0 5px 15px 0 crimson;
+}
+
+.img_cards {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 400px;
+    height: 500px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe Script", cursive;
+    font-size: 30px;
+    height: 85px;
+    color:orange;
+}
+
+
+
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:6px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar-track {
+    background-color: rgb(20, 20, 20);
+    /* box-shadow:0px 0px 3px #000 inset; */
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color:black;
+    /* box-shadow:0px 1px 1px #fff inset; */
+    /* background-image:url('https://yraaa.ru/_pu/24/59610063.png'); */
+    background-position:center;
+    background-repeat:no-repeat;
+    }
+    
+    ::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:7px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar{
+    width: 11px;
+    }
