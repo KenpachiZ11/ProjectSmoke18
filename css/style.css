@@ -17,14 +17,14 @@ section {
 }
 
 .select1 {
-    background-image: url(img/body.jpg);
+    background-image: url(/img/body.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     display: flex;
     /* background: rgba(184, 180, 180, 0.550); */
 }
-
+/* '
 #overlay {
     position: fixed; 
     top: 0;
@@ -95,7 +95,7 @@ section {
 .popup h2 {
     text-align: center;
     font-size: 30px;
-}
+} */
 
 .block21 {
     /* display: flex; */

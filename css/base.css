@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* width: 1920px; */
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background: black;
+}
+
+.section {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(66, 53, 53);
+    /* text-align: center; */
+    display: flex;
+    animation: animate2 9s linear forwards;
+}
+
+.video {
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    margin: auto;
+    width: 1300px;
+    height: 300px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    /* letter-spacing: 20px; */
+}
+
+.headerFirst {
+    display: flex;
+    font-size: 5em;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 20px;
+}
+
+.to {
+    font-size: 1em;
+    margin-left: -20px;
+    animation: animate3 5s linear forwards;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerSecond {
+    letter-spacing: 20px;
+    /* margin: -15px; */
+    opacity: 0;
+    animation: animate1 7s linear forwards;
+}
+
+.mar {
+    margin: 10px 0 10px;
+}
+
+.chart{
+    opacity: 0;
+    animation: animate 1s linear forwards;
+}
+
+.chart:nth-child(1) {
+    animation-delay: .5s;
+}
+.chart:nth-child(2) {
+    animation-delay: 1s;
+}
+.chart:nth-child(3) {
+    animation-delay: 1.5s;
+}
+.chart:nth-child(4) {
+    animation-delay: 2s;
+}
+.chart:nth-child(5) {
+    animation-delay: 2.5s;
+}
+.chart:nth-child(6) {
+    animation-delay: 3s;
+}
+.chart:nth-child(7) {
+    animation-delay: 3.5s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+@keyframes animate1 {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes animate3 {
+    0% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* verify.html */
+
+.wrapper {
+    margin: 0 auto;
+    width: 1300px;
+    height: 1000px;
+}
+
+.video2 {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+/* 
+.video3 {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */
+
+.cube__info {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(255, 0, 0, .4);
+    border-radius: 30px;
+    position: relative;
+    top: 30%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.text__info {
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    width: 500px;
+    display: flex;
+    /* justify-content: center; */
+    /* margin-bottom: 70px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color :white;
+}
+
+.content {
+    height: 70px;
+    color:white;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    color :white;
+}
+
+.point {
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    /* opacity: 0.4; */
+}
+
+.btn {
+    padding: 7px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: rgba(80, 80, 80, .75);
+    border: 1px solid grey;
+}
+
+.point__yes {
+    /* border: 1px solid red; */
+    width: 250px;
+    /* height: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+
+.point__no {
+    /* border: 1px solid red; */
+    width: 250px;
+    /* height: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+
+
+
+
+
