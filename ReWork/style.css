@@ -1,19 +1,26 @@
 * {
     margin: 0;
     padding: 0;
-    width: 1400px;
+    /* width: 1400px; */
     background: #464544;
 }
 
+.nav__menu {
+    margin: 0 auto;
+    width: 1400px;
+}
+
 nav {
+    margin-top: 10px;
     height: 70px;
     display: flex;
+    width: 1400px;
 }
 
 .logo {
     width: 70px;
     height: 70px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .menu {
@@ -38,18 +45,23 @@ nav {
     color: red;
 } 
 
-.form_set {
-    margin-top: 5px;
-    height: 60px;
+.click__me {
+    width: 200px;
+    outline: none;
+    border-radius:50px;
+    transition: 1.2s ease;
+    margin: 0 30px 0 30px;
+    font-size: 20px;
 }
 
-.name {
-    display: flex;
-    width: 280px;
+.click__me:hover {
+    transform: scale(1.2);
 }
 
-.sign {
-    margin-top: 5px;
-    display: flex;
-    width: 280px;
+.modal {
+    width: 400px;
+    height: 350px;
+    background:white;
+    margin: 0 auto;
 }
+
