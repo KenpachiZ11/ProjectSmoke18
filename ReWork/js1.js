@@ -1,16 +1,13 @@
-// Modal 
+// Modal
+let modal = document.getElementById('modal');
+let clickMe = document.getElementById('click__me');
+let close = document.getElementById('modal__close');
 
-const modalTrigger = document.querySelectorAll('[data-model]'),
-      modal = document.querySelector('.modal'),
-      modalClose = document.querySelector('[data-close]');
 
-
-modalTrigger.addEventListener('click', () => {
-    modal.classList.add('show');
-    modal.classList.remove('hide');
+clickMe.addEventListener('click', () => {
+    modal.style.display = "block";
 });
 
-modalTrigger.addEventListener('click', () => {
-    modal.classList.add('hide');
-    modal.classList.remove('show');
+close.addEventListener('click', () => {
+    modal.style.display = "none";
 });

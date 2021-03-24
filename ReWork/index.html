@@ -17,24 +17,28 @@
             <li><a href="#">Фотогалерея</a></li>
             <li><a href="tel:8(495)999-99-99">+7(499)-999-91-62</a></li>
         </ul>
-        <button type="button" class="click__me" data-modal>Вход/Регистрация</button>
+        <button type="button" id="click__me" class="click__me">Вход/Регистрация</button>
     </nav>
 </section>
-
-    <div class="modal">
-        <div class="modal__dialog">
-            <div class="modal__content">
-                <form action="#">
-                    <div data-close class="modal__close">&times;</div>
-                    <div class="modal__title">Вход/Регистрация</div>
-                    <input type="text"  placeholder="Логин">
-                    <input type="text"  placeholder="Пароль">
-                    <button type="button">Войти</button>
-                    <button type="button">Зарегистрироваться</button>
-                </form>
-            </div>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <div class="modal__close" id="modal__close">&times;</div>
+            <form action="#">
+                <div class="modal__title">Вход/Регистрация</div>
+                    <div class="modal__form">
+                        <div class="modal__input">
+                            <input type="text"  placeholder="Логин">
+                            <input type="text"  placeholder="Пароль">
+                        </div>
+                        <div class="modal__button">
+                            <button type="button">Войти</button>
+                            <button type="button">Зарегистрироваться</button>
+                        </div>                        
+                    </div>
+            </form>
         </div>
     </div>
+
 
 </body>
 <script src="js1.js"></script>
